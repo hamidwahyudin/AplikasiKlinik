@@ -30,3 +30,5 @@ Langkah instalasi :
     PRIMARY KEY (id)
    ) DEFAULT CHARSET=latin1
    `
+
+4. Open project menggunakan Netbeans IDE
