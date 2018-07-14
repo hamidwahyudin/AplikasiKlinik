@@ -23,6 +23,8 @@ public class formPasien extends javax.swing.JFrame {
     public formPasien() {
         initComponents();
         datatable();
+        grrjk.add(rjk1);
+        grrjk.add(rjk2);
     }
 
     /**
@@ -34,6 +36,7 @@ public class formPasien extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        grrjk = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -419,6 +422,7 @@ public class formPasien extends javax.swing.JFrame {
     private javax.swing.JButton bexit;
     private javax.swing.JButton bsave;
     private javax.swing.JComboBox<String> cgd;
+    private javax.swing.ButtonGroup grrjk;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
