@@ -315,7 +315,7 @@ public class formPasien extends javax.swing.JFrame {
         tid.setText(a);
         tnama.setText(b);
         
-        if(c.equals("laki-laki")) {rjk1.setSelected(true); rjk2.setSelected(false);}
+        if(c.equals("Laki-laki")) {rjk1.setSelected(true); rjk2.setSelected(false);}
         else {rjk1.setSelected(false); rjk2.setSelected(true);}
         
         talm.setText(d);
